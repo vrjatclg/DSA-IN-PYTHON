@@ -1,4 +1,6 @@
 # DSA-IN-PYTHON
-dsa concepts in python
- topic till now
- @ Linear Search
+<h3>Topics</h3>
+ <br>
+ <ul>
+ <li> Linear Search </li>
+ </ul>
