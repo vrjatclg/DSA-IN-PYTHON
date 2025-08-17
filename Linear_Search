@@ -1,0 +1,46 @@
+# 🔎==============================🔎
+# how it works
+'''
+if we give it an array like [1,2,7,4,3] it will go to each index and visit and check whether
+the target here 7 matches if yes it return i the index in this case if not found return -1
+
+just like u like someone in the clg u search for the id or to talk , by going to individual class and still 
+not found return a he or she seems not in this department  '''
+# 🔎==============================🔎
+
+# ==============================
+## LINEAR SEARCH CODE
+
+
+def linear_search(target,arr):
+    for i,val in enumerate(arr): 
+        if val==target:
+            return i
+    return -1
+arr = [1,2,7,4,3]
+target = 7
+result = linear_search(target,arr)
+if result!=-1:
+    print(f"{target}was found at ",result)
+else:
+    print("not found")
+
+
+# ==============================
+
+# 💡==============================💡
+# most important question why enumerate? 
+# enumerate is more pythonic , it better than range(len) as it contain both value and index
+#enumerate is like someone handing you both the attendance roll and the student. 
+# range(len(...)) is like getting just the roll number and then hunting the student down yourself.
+# 💡==============================💡
+
+k = [1,2,3,45,6,7] #for understanding how range works it starts with 0 
+for i in range(len(k)):
+    print(i)
+# 💡==============================💡
+
+# Give it a try and do me know if you guys have any doubts to contact
+#https://www.linkedin.com/in/virajsalunke/
+
+
